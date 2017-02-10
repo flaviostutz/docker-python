@@ -305,7 +305,6 @@ RUN pip install --upgrade mpld3 && \
     pip install fuzzywuzzy && \
     pip install python-louvain && \
     pip install pyexcel-ods && \
-    pip install mayavi && \
     ##### ^^^^ Add new contributions above here
     # clean up pip cache
     rm -rf /root/.cache/pip/* && \
